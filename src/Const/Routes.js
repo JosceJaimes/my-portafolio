@@ -1,0 +1,5 @@
+export const SPLASH = '/splash'
+export const HOME = '/home'
+export const ABOUT = '/aboutme'
+export const WORKS = '/works'
+export const CONTACT = '/contact'
