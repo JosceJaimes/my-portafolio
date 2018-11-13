@@ -2,17 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import * as routes from './Routes';
+import './routes.css'
 
 
 const Navigation = () => 
-    <div>
+    <div className="routes">
         <ul>
-            <li><Link to={routes.SPLASH}>SPLASH</Link></li>
-            <li><Link to={routes.CONTACT}>CONTACTO</Link></li>
-            <li><Link to={routes.WORKS}>TRABAJOS</Link></li>
-            <li><Link to={routes.ABOUT}>SOBRE MI</Link></li>
-            <li><Link to={routes.HOME}>INICIO</Link></li>
-            {/* <li><Link to={routes}> */}
+            <Link to={routes.ABOUT} className="about">SOBRE MI</Link>
+            <Link to={routes.CONTACT} className="contact">CONTACTO</Link>
+            <Link to={routes.WORKS} className="works">TRABAJOS</Link>    
         </ul>
     </div>
 export default Navigation;

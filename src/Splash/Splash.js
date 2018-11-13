@@ -16,6 +16,7 @@ class Bienvenida extends Component{
       }
     
     setRedirect=()=>{
+      console.log("redireccionando");
       if(this.state.redirect){
         return <Redirect to='/aboutme'/>
       }
