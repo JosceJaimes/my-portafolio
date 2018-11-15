@@ -2,17 +2,22 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JosceJaimes.github.io/portafolio",
+  "homepage": "https://JosceJaimes.github.io/my-portafolio",
   "dependencies": {
-    "react": "^16.5.2",
+    "bootstrap": "^4.1.3",
+    "gh-pages": "^2.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.5",
+    "react": "^16.6.3",
     "react-bootstrap": "^0.32.4",
-    "react-dom": "^16.5.2",
+    "react-dom": "^16.6.3",
     "react-gif": "^0.1.0",
+    "react-materialize": "^2.4.8",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.5",
     "react-splash": "^0.1.0",
     "react-typing-animation": "^1.4.0",
-    "gh-pages":"2.0.0"
+    "reactstrap": "^6.5.0"
   },
   "scripts": {
     "start": "react-scripts start",

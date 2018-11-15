@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import logo from '../Assets/me.jpg'
-import '../About/About.css'
+import logo from '../Assets/me.jpg';
+import '../About/About.css';
+import Contact from '../Contact/Contact'
 
 class About extends Component{
   render(){
@@ -15,6 +16,8 @@ class About extends Component{
          a la gente llevar una vida mas comoda, sin esforzarse, porque obviamente yo como Front-End Developer
          lo hago por ellos. Me encanta la música electrónica, leer y aprender cosas nuevas cada día. Creo firmemente que 
          todas las personas tiene algo que aportar y programar es mi forma de aportar.
+         Contactame!
+          <Contact/>
        </div>
       </div>
      </div>

@@ -4,7 +4,7 @@ import face from '../Assets/face.png'
 import link from '../Assets/linkedin.png';
 import git from '../Assets/git.jpg';
 import gmail from '../Assets/gmail.jpg';
-import what from '../Assets/whatsapp.png';
+// import what from '../Assets/whatsapp.png';
 class Contact extends Component{
   render(){
     return(
@@ -14,26 +14,19 @@ class Contact extends Component{
         Contacto
       </h4>
       <div className="contact">
-      <div className="contactme">
-      <img src={face} className="link" width="80" height="60" alt="Imagen"/>
-      <span><a href="https://www.facebook.com/joscelineesmeralda.jaimesjuarez"><p>https://www.facebook.com/joscelineesmeralda.jaimesjuarez</p></a></span>
+      <div className="contactme">      
+      <a href="https://www.facebook.com/joscelineesmeralda.jaimesjuarez"><img src={face} className="link" width="80" height="60" alt="Imagen" /></a>
       </div>  
       <div className="contactme">
-      <img src={link} className="link"width="80" height="60" alt="Imagen"/>
-      <span><a href="https://www.linkedin.com/in/joscejaimes/"><p>https://www.linkedin.com/in/joscejaimes/</p></a></span>
+      <a href="https://www.linkedin.com/in/joscejaimes/"><img src={link} className="link"width="80" height="60" alt="Imagen"/> </a>
       </div>  
       <div className="contactme">
-      <img src={git} className="link"width="80" height="60" alt="Imagen" />
-      <span><a href="https://github.com/JosceJaimes"><p>https://github.com/JosceJaimes</p></a></span>
+      <a href="https://github.com/JosceJaimes"><img src={git} className="link"width="80" height="60" alt="Imagen" /></a>
       </div>  
       <div className="contactme">
-      <img src={gmail} className="link" width="80" height="60" alt="Imagen" />
-      <span><a href=""><p>joscejaimes94@gmail.com</p></a></span>
-      </div>  
-      <div className="contactme">
-      <img src={what} className="link" width="80" height="60" alt="Imagen" />
-      <span><a href=""><p>0445544848488</p></a></span>
-      </div>    
+      <a href={`mailto:joscejaimes94@gmail.com${this.props.email}`}><img src={gmail} className="link" width="80" height="60" alt="Imagen" /></a>
+      {/* <a href={"maito:joscejaimes94@gmail.com?Subject=Hello%20again" + this.props.email} target="_top"> <img src={gmail} className="link" width="80" height="60" alt="Imagen" /></a> */}
+      </div>      
       </div>
       </div>
     </div>

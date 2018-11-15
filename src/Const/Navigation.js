@@ -10,7 +10,8 @@ const Navigation = () =>
         <ul>
             <Link to={routes.ABOUT} className="about">SOBRE MI</Link>
             <Link to={routes.CONTACT} className="contact">CONTACTO</Link>
-            <Link to={routes.WORKS} className="works">TRABAJOS</Link>    
+            <Link to={routes.WORKS} className="works">TRABAJOS</Link> 
+            <Link to={routes.TOOLS} className="tools">HERRAMIENTAS</Link>           
         </ul>
     </div>
 export default Navigation;
