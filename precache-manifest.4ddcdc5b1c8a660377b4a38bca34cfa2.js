@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9ada716631958a426b38",
+    "revision": "467b46695b8d6dc0d4c8",
     "url": "/my-portafolio/static/css/main.f7b224a3.chunk.css"
   },
   {
-    "revision": "9ada716631958a426b38",
-    "url": "/my-portafolio/static/js/main.9ada7166.chunk.js"
+    "revision": "467b46695b8d6dc0d4c8",
+    "url": "/my-portafolio/static/js/main.467b4669.chunk.js"
   },
   {
     "revision": "1ff0c489dd305d67060f",
@@ -28,16 +28,16 @@ self.__precacheManifest = [
     "url": "/my-portafolio/static/media/gmail.e7c73a88.jpg"
   },
   {
-    "revision": "91030d938e97ddf4d45594076628b97e",
-    "url": "/my-portafolio/static/media/colores.91030d93.jpg"
+    "revision": "142320e08f14753eaed9f31e6b728a04",
+    "url": "/my-portafolio/static/media/data.142320e0.jpg"
   },
   {
-    "revision": "8ca8684bb88e469f7236d2062e05b460",
-    "url": "/my-portafolio/static/media/londres.8ca8684b.jpeg"
+    "revision": "0055833815c25a8095a80e1a79b79091",
+    "url": "/my-portafolio/static/media/food.00558338.jpg"
   },
   {
-    "revision": "492e2b8c65fee4deda22f7de1acb4bed",
-    "url": "/my-portafolio/static/media/paris.492e2b8c.jpg"
+    "revision": "d7bdddafcecf235da27d4e4f9097cb9a",
+    "url": "/my-portafolio/static/media/baby.d7bdddaf.jpg"
   },
   {
     "revision": "c2d87fdde30423cab85f0d37c9858565",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/my-portafolio/static/media/music.37b39382.jpg"
   },
   {
-    "revision": "696d4c77a77a0d3e29e99b7064d4015d",
+    "revision": "5ef8d5da25c6cc8759517642955af64b",
     "url": "/my-portafolio/index.html"
   }
 ];

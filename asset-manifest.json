@@ -1,7 +1,7 @@
 {
   "main.css": "/my-portafolio/static/css/main.f7b224a3.chunk.css",
-  "main.js": "/my-portafolio/static/js/main.9ada7166.chunk.js",
-  "main.js.map": "/my-portafolio/static/js/main.9ada7166.chunk.js.map",
+  "main.js": "/my-portafolio/static/js/main.467b4669.chunk.js",
+  "main.js.map": "/my-portafolio/static/js/main.467b4669.chunk.js.map",
   "static/js/1.1ff0c489.chunk.js": "/my-portafolio/static/js/1.1ff0c489.chunk.js",
   "static/js/1.1ff0c489.chunk.js.map": "/my-portafolio/static/js/1.1ff0c489.chunk.js.map",
   "runtime~main.js": "/my-portafolio/static/js/runtime~main.9ac6009e.js",
@@ -9,9 +9,9 @@
   "static/media/git.jpg": "/my-portafolio/static/media/git.d79728b9.jpg",
   "static/media/me.jpg": "/my-portafolio/static/media/me.6c0f0254.jpg",
   "static/media/gmail.jpg": "/my-portafolio/static/media/gmail.e7c73a88.jpg",
-  "static/media/colores.jpg": "/my-portafolio/static/media/colores.91030d93.jpg",
-  "static/media/londres.jpeg": "/my-portafolio/static/media/londres.8ca8684b.jpeg",
-  "static/media/paris.jpg": "/my-portafolio/static/media/paris.492e2b8c.jpg",
+  "static/media/data.jpg": "/my-portafolio/static/media/data.142320e0.jpg",
+  "static/media/food.jpg": "/my-portafolio/static/media/food.00558338.jpg",
+  "static/media/baby.jpg": "/my-portafolio/static/media/baby.d7bdddaf.jpg",
   "static/media/javascript.png": "/my-portafolio/static/media/javascript.c2d87fdd.png",
   "static/media/Blockchain.png": "/my-portafolio/static/media/Blockchain.83b60641.png",
   "static/media/bootstap.png": "/my-portafolio/static/media/bootstap.2c45f0e9.png",
@@ -20,6 +20,6 @@
   "static/media/App.css": "/my-portafolio/static/media/music.37b39382.jpg",
   "static/css/main.f7b224a3.chunk.css.map": "/my-portafolio/static/css/main.f7b224a3.chunk.css.map",
   "index.html": "/my-portafolio/index.html",
-  "precache-manifest.ff318679cedf5210a70a712f673841b7.js": "/my-portafolio/precache-manifest.ff318679cedf5210a70a712f673841b7.js",
+  "precache-manifest.4ddcdc5b1c8a660377b4a38bca34cfa2.js": "/my-portafolio/precache-manifest.4ddcdc5b1c8a660377b4a38bca34cfa2.js",
   "service-worker.js": "/my-portafolio/service-worker.js"
 }
