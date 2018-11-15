@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+import * as routes from '../Const/Routes'
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 export default class Example extends React.Component {
@@ -20,16 +22,20 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="faded" light>
+        <Navbar color="faded" className="container-fluid" light>
           <NavbarBrand href="/" className="mr-auto">Josceline Jaimes</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/works">Works</NavLink>
+                <NavLink >
+                  <Link to={routes.WORKS}>Works</Link>
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/tools">Tools</NavLink>
+                <NavLink>
+                <Link to={routes.TOOLS}>Tools</Link>
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>

@@ -36,24 +36,25 @@ import * as routes from './Const/Routes'
 import About from './About/About.js';
 import Contact from './Contact/Contact.js';
 import Works from './Works/Works.js';
+import Tools from './Herramientas/Herramientas.js'
  
 class Natbar extends Component{
   render(){
     return(
-  <div>    
-    <Router>
-    <Switch> 
-      <div>
+      <Router basename={process.env.PUBLIC_URL}>
+        <div>    
         <Navbare/>
-        <Route exact path={routes.ABOUT} component={About}/>
+        <Switch> 
+          <Route exact path={routes.ABOUT} component={About}/>
 
-        <Route exact path={routes.CONTACT} component={Contact}/>
+          <Route exact path={routes.CONTACT} component={Contact}/>
 
-        <Route exact path={routes.WORKS} component={Works}/>
+          <Route exact path={routes.WORKS} component={Works}/>
+
+          <Route exact path={routes.TOOLS} component={Tools}/>
+        </Switch>
       </div>
-      </Switch>
     </Router>
-  </div>
     )
   } 
 

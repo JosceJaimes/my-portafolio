@@ -1,0 +1,17 @@
+/* .container .tools div{
+    margin:1%;
+} */
+/* .tools{
+    height: 100px;
+    width: 100px;
+} */
+.container .tools{
+    margin:5%;
+}
+@media screen and (max-width: 600px) {
+    .tools{
+        height: 60px;
+        width: 60px;
+    }
+
+    }
