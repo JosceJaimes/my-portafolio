@@ -33,9 +33,9 @@ import './App.css';
 import Navbare from './Navbar/Navbar'
 // import Navigation from './Const/Navigation'
 import * as routes from './Const/Routes'
-import About from './About/About';
-import Contact from './Contact/Contact';
-import Works from './Works/Works';
+import About from './About/About.js';
+import Contact from './Contact/Contact.js';
+import Works from './Works/Works.js';
  
 class Natbar extends Component{
   render(){

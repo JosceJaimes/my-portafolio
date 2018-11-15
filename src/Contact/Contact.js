@@ -10,21 +10,18 @@ class Contact extends Component{
     return(
     <div className="Container">
       <div className="contenido">
-      <h4>
-        Contacto
-      </h4>
       <div className="contact">
       <div className="contactme">      
-      <a href="https://www.facebook.com/joscelineesmeralda.jaimesjuarez"><img src={face} className="link" width="80" height="60" alt="Imagen" /></a>
+      <a href="https://www.facebook.com/joscelineesmeralda.jaimesjuarez"><img src={face} className="link" width="60" height="60" alt="Imagen" /></a>
       </div>  
       <div className="contactme">
       <a href="https://www.linkedin.com/in/joscejaimes/"><img src={link} className="link"width="80" height="60" alt="Imagen"/> </a>
       </div>  
       <div className="contactme">
-      <a href="https://github.com/JosceJaimes"><img src={git} className="link"width="80" height="60" alt="Imagen" /></a>
+      <a href="https://github.com/JosceJaimes"><img src={git} className="link"width="60" height="60" alt="Imagen" /></a>
       </div>  
       <div className="contactme">
-      <a href={`mailto:joscejaimes94@gmail.com${this.props.email}`}><img src={gmail} className="link" width="80" height="60" alt="Imagen" /></a>
+      <a href={`mailto:joscejaimes94@gmail.com${this.props.email}`}><img src={gmail} className="link" width="60" height="60" alt="Imagen" /></a>
       {/* <a href={"maito:joscejaimes94@gmail.com?Subject=Hello%20again" + this.props.email} target="_top"> <img src={gmail} className="link" width="80" height="60" alt="Imagen" /></a> */}
       </div>      
       </div>
