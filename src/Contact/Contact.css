@@ -1,3 +1,13 @@
-/* .link{
-    image-orientation: 100px
-} */
+.contactme{
+    display: inline-block;
+    border: #80d8ff;
+
+}
+
+.container {
+    background-color: #80d8ff;
+    border: #49a7cc 5px solid;
+}
+.card {
+    background-color: #b5ffff
+}
