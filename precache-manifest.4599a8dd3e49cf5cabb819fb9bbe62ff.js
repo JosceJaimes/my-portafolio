@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc4fed7f3f6b476884dc5315132a5faa",
+    "revision": "4f0864abebc5d438c54ea5a220139ce3",
     "url": "/my-portafolio/index.html"
   },
   {
-    "revision": "6c653eacb7dc65201120",
-    "url": "/my-portafolio/static/css/main.da01418d.chunk.css"
+    "revision": "a3880cbd96290c783884",
+    "url": "/my-portafolio/static/css/main.40457ef7.chunk.css"
   },
   {
-    "revision": "642f53028037c788e591",
-    "url": "/my-portafolio/static/js/2.3e96839c.chunk.js"
+    "revision": "325ce126e476ecc394dd",
+    "url": "/my-portafolio/static/js/2.11dfeb25.chunk.js"
   },
   {
-    "revision": "6c653eacb7dc65201120",
-    "url": "/my-portafolio/static/js/main.919b0cba.chunk.js"
+    "revision": "a3880cbd96290c783884",
+    "url": "/my-portafolio/static/js/main.6c4d724b.chunk.js"
   },
   {
     "revision": "bc5eea72434c9276a072",
@@ -28,8 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portafolio/static/media/bootstap.2c45f0e9.png"
   },
   {
-    "revision": "91030d938e97ddf4d45594076628b97e",
-    "url": "/my-portafolio/static/media/colores.91030d93.jpg"
+    "revision": "eec36a3fa2bb96d67675210f9e90424f",
+    "url": "/my-portafolio/static/media/dashboard.eec36a3f.png"
+  },
+  {
+    "revision": "e62696d75c8bbf868210668ff7f91a17",
+    "url": "/my-portafolio/static/media/foodmap.e62696d7.jpg"
   },
   {
     "revision": "d79728b930663c8531ab6ab88ffc25e5",
@@ -44,20 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portafolio/static/media/javascript.c2d87fdd.png"
   },
   {
-    "revision": "8ca8684bb88e469f7236d2062e05b460",
-    "url": "/my-portafolio/static/media/londres.8ca8684b.jpeg"
+    "revision": "4184ea02b22eb0749018402a1b2c9d11",
+    "url": "/my-portafolio/static/media/moviapp.4184ea02.jpg"
   },
   {
-    "revision": "6c0f0254f30f65740ba809b52c36a532",
-    "url": "/my-portafolio/static/media/me.6c0f0254.jpg"
-  },
-  {
-    "revision": "37b3938236e530e2e430e7818be9cd5c",
-    "url": "/my-portafolio/static/media/music.37b39382.jpg"
-  },
-  {
-    "revision": "492e2b8c65fee4deda22f7de1acb4bed",
-    "url": "/my-portafolio/static/media/paris.492e2b8c.jpg"
+    "revision": "3a515bee65604398c4cd47db57785e7c",
+    "url": "/my-portafolio/static/media/perfil.3a515bee.jpeg"
   },
   {
     "revision": "40342f942838db49734449422b801887",
