@@ -8,11 +8,10 @@ const About = (props) => {
     <div className="container">
               <h2>SOBRE MI</h2>
       <Row>
-        <Col sm="4">
-
+        <Col  sm="2" md="3" lg="6">
           <img src={logo} className="logo" alt="Imagen" />
         </Col>
-        <Col sm="8">
+        <Col sm="10" md="9" lg="6">
     <div className="text">
       <Card >
         <CardBody style={{  borderColor: '#333' }}>

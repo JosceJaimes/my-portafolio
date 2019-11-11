@@ -11,3 +11,10 @@
 .card {
     background-color: #b5ffff
 }
+/* @media screen and (max-width:640px) {
+    .contactme{
+        display: inline-block;
+        background-color: black !important;
+    
+    }
+  } */
