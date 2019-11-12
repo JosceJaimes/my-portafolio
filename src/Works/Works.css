@@ -6,7 +6,6 @@
     transform: translate(-50%,-50%);
     width: 350px;
     height: 400px;
-    background: #49a7cc;
     overflow: hidden;
     margin-top: 60%;
     
@@ -72,31 +71,35 @@ h3 {
      padding: 7%; 
 }
 
+@media screen and (max-width:640px) {
 
- /* @media only screen and (max-width: 600px) {
     .dev-img {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        width: 30px;
-        height: 150px;
-        background: black;
-        overflow: hidden;
-        margin-top: 60%;
+        margin: 0 0 95% 0;
+        transform: none;
+        overflow:visible;
+
+  
     }
-
+    .dev-img .img{
+        max-width:calc(100% - 20%);  
+        margin: 10% 0 2% -40% ; 
+    }
     .dev-img .text {
-    background: white;
-    top: 50%;
-    left: 100%;
-    padding: 60px 30px;
-}
+        position: absolute;
+        height: 70%;
+        margin: 125% 0 0 -140%;
+        padding: 15% 0 0 0;
+        max-width:calc(100% - 20%);  
+        background-color:#49a7cc; 
+        text-align: center;
 
-.dev-img .img {
-    top: 0;
-    left: 0
-}
-  }  */
+    }
+  }
 
-  /* absolute */
+  @media screen and (max-width:1024px) and (min-width:640px){
+
+  }
+
+  @media screen and (max-width:1400px) and (min-width:1024px){
+
+  }

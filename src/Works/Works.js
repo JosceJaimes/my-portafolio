@@ -16,8 +16,8 @@ const Works = () => {
         <h2>MIS TRABAJOS</h2>
           <CardBody className="conten">
           <Row>
-            <Col sm="4">
-            <CardText >
+            <Col sm="12" md="3" lg="4">
+            <CardText className="carta" >
             <div className="dev-img" >
               <img className="img" src={dashboard} alt="Imagen"/>
               <div className="text">
@@ -33,7 +33,7 @@ const Works = () => {
               </div>
             </CardText>
             </Col>
-            <Col sm="4">
+            <Col sm="12" md="6" lg="4">
             <CardText >
             <div className="dev-img" >
               <img className="img" src={foodmap} alt="Imagen"/>
@@ -49,7 +49,7 @@ const Works = () => {
             </div> 
             </CardText>
             </Col>
-            <Col sm="4">
+            <Col sm="12" md="3" lg="4">
             <CardText >
             <div className="dev-img" >
               <a href="https://www.google.com/"><img className="img" src={moviapp} alt="Imagen"/></a>
